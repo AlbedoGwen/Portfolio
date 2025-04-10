@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    background-color: #16c6f7;
+    padding:10px 20px;
+    justify-content: space-between;
+    border: black 0.2px solid;
+    border-radius: 2px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: #ffffff;
+    cursor:pointer;
+}
+.nav-links{
+    list-style: none;
+    display:flex;
+    justify-content:flex-end;
+    gap: 9px;
+    margin: 0%;
+    padding:0px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.profile-pic{
+    border-radius: 2%;
+    width: 40%;
+    height: 50%;
+    margin-top: 10%;
+    object-fit: cover;
+}
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    gap:40px;
+    padding:40px;
+    margin: auto;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+p {
+    transform: translateY(2px); /* Adjust this value if needed */
+    margin: 0%;
+  }
+.features{
+    font-family:cursive;
+    display: flex;
+    justify-self:last baseline;
+    color:rgb(0, 76, 255);
+    margin-left: 67.5%;
+    margin-top: 11%;
+    
+}
+.features:hover{
+    color:rgb(255, 0, 0);
+    cursor:pointer;
+    
+}
+  
